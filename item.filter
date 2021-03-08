@@ -44,8 +44,8 @@ ItemDisplay[MAG !ID (aq2 OR cq2) CLVL>69]: //Ignore Unidentified Magic Arrows/Bo
 
 ItemDisplay[RUNE<10]: %ORANGE%%RUNENAME% Rune %GRAY%(%RUNENUM%)
 ItemDisplay[RUNE<20]: %NL%%ORANGE%%RUNENAME% Rune %GRAY%(%RUNENUM%)%NL%
-ItemDisplay[(RUNE>19 AND RUNE<26)]: %BORDER-62%         %NL%%NL%         %RED%#%WHITE%#%BLUE%#  %GREEN%%RUNENAME% RUNE %GRAY%(%RUNENUM%)  %BLUE%#%WHITE%#%RED%#         %NL%%NL%%RED%           %CONTINUE%
-ItemDisplay[RUNE>25]: %BORDER-62%         %NL%%NL%%NL%         %RED%###%WHITE%###%BLUE%###  %GREEN%%RUNENAME% RUNE %GRAY%(%RUNENUM%)  %BLUE%###%WHITE%###%RED%###         %NL%%NL%%NL%%RED%           %CONTINUE%
+ItemDisplay[(RUNE>19 AND RUNE<26)]: %MAP%         %NL%%NL%         %RED%#%WHITE%#%BLUE%#  %GREEN%%RUNENAME% RUNE %GRAY%(%RUNENUM%)  %BLUE%#%WHITE%#%RED%#         %NL%%NL%%RED%           %CONTINUE%
+ItemDisplay[RUNE>25]: %MAP%         %NL%%NL%%NL%         %RED%###%WHITE%###%BLUE%###  %GREEN%%RUNENAME% RUNE %GRAY%(%RUNENUM%)  %BLUE%###%WHITE%###%RED%###         %NL%%NL%%NL%%RED%           %CONTINUE%
 
 //║                     ▬▬▬▬▬ Town Portal and ID Scrolls/Tomes and Keys ▬▬▬▬▬                     ║
 //Utilites
