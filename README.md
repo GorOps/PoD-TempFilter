@@ -10,6 +10,10 @@
 
 
 ### HOW TO INSTALL:
+1. In your launcher add: https://raw.githubusercontent.com/GorOps/PoD-TempFilter/main/item.filter 
+
+-OR-
+
 1. Click item.filter file above
 2. Copy to ... \Diablo II\Path of Diablo\filter folder
 3. In game:
