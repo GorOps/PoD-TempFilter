@@ -47,6 +47,7 @@ ItemDisplay[RUNE<20]: %NL%%ORANGE%%RUNENAME% Rune %GRAY%(%RUNENUM%)%NL%
 ItemDisplay[(RUNE>19 AND RUNE<26)]: %MAP%         %NL%%NL%         %RED%#%WHITE%#%BLUE%#  %GREEN%%RUNENAME% RUNE %GRAY%(%RUNENUM%)  %BLUE%#%WHITE%#%RED%#         %NL%%NL%%RED%           %CONTINUE%
 ItemDisplay[RUNE>25]: %MAP%         %NL%%NL%%NL%         %RED%###%WHITE%###%BLUE%###  %GREEN%%RUNENAME% RUNE %GRAY%(%RUNENUM%)  %BLUE%###%WHITE%###%RED%###         %NL%%NL%%NL%%RED%           %CONTINUE%
 
+
 //║                     ▬▬▬▬▬ Town Portal and ID Scrolls/Tomes and Keys ▬▬▬▬▬                     ║
 //Utilites
 ItemDisplay[tsc]: %GREEN%!%GRAY%TP
