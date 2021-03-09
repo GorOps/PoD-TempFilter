@@ -56,21 +56,24 @@ ItemDisplay[tbk]: %GREEN%!%GRAY%TP Book
 ItemDisplay[ibk]: %GREEN%!%GRAY%ID Book
 
 //║                      ▬▬▬▬▬ Healing, Mana, and Rejuvination Potions ▬▬▬▬▬                      ║
-ItemDisplay[(hp1 OR mp1) CLVL>5]: //Ignore Lesser Healing/Mana Potions (Level 6+)
-ItemDisplay[hp1]: %GREEN%!%RED%Min HP
-ItemDisplay[mp1]: %GREEN%!%BLUE%Min Mana
-ItemDisplay[(hp2 OR mp2) CLVL>17]: //Ignore Light Healing/Mana Potions (Level 18+)
-ItemDisplay[hp2]: %GREEN%!%RED%Lite HP
-ItemDisplay[mp2]: %GREEN%!%BLUE%Lite Mana
-ItemDisplay[(hp3 OR mp3) CLVL>23]: //Ignore Healing/Mana Potions (Level 24+)
-ItemDisplay[hp3]: %GREEN%!%RED%Reg HP
-ItemDisplay[mp3]: %GREEN%!%BLUE%Reg Mana
-ItemDisplay[(hp4 OR mp4) CLVL>44]: //Ignore Greater Healing/Mana Potions (Level 45+)
-ItemDisplay[hp4]: %GREEN%!%RED%Grt HP
-ItemDisplay[mp4]: %GREEN%!%BLUE%Grt Mana
-ItemDisplay[hp5 CLVL>89]: //Ignore Super Healing Potions (Level 90+)
+ItemDisplay[hp4 CLVL<70]: %GREEN%!%RED%Grt HP
+ItemDisplay[hp4]: 
 ItemDisplay[hp5]: %GREEN%!%RED%HP
+ItemDisplay[mp4 CLVL<70]: %GREEN%!%BLUE%Grt Mana
+ItemDisplay[mp4]: 
 ItemDisplay[mp5]: %GREEN%!%BLUE%MP
+ItemDisplay[hp1 CLVL<15]: %GREEN%!%RED%Min HP
+ItemDisplay[hp2 CLVL<18]: %GREEN%!%RED%Lite HP
+ItemDisplay[hp3 CLVL<24]: %GREEN%!%RED%Reg HP
+ItemDisplay[hp1 CLVL>14]:
+ItemDisplay[hp2 CLVL>17]:
+ItemDisplay[hp3 CLVL>24]:
+ItemDisplay[mp1 CLVL<15]: %GREEN%!%BLUE%Min Mana
+ItemDisplay[mp2 CLVL<20]: %GREEN%!%BLUE%Lite Mana
+ItemDisplay[mp3 CLVL<26]: %GREEN%!%BLUE%Reg Mana
+ItemDisplay[mp1 CLVL>14]:
+ItemDisplay[mp2 CLVL>19]:
+ItemDisplay[mp3 CLVL>25]:
 ItemDisplay[rvl]: %NL%%BLACK%   %GREEN%!%PURPLE%7%  %BLACK%%NL%
 ItemDisplay[rvs]: %NL%%BLACK%   %GREEN%!%PURPLE%3%  %BLACK%%NL%
 
