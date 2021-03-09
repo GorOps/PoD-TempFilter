@@ -10,7 +10,7 @@
 ItemDisplay[GOLD<100 CLVL<20]:
 ItemDisplay[GOLD<2000 (CLVL>19 AND CLVL<=69)]:
 ItemDisplay[GOLD<7000 CLVL>69]:
-ItemDisplay[GOLD>0]: %NAME%
+//ItemDisplay[GOLD>0]: %NAME%
 
 ItemDisplay[key]: //Hide keys. You can still buy them.
 ItemDisplay[gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc]: //Ignore Chipped Gems
@@ -136,10 +136,10 @@ ItemDisplay[!(NMAG OR MAG OR RARE OR SET OR UNI)]: %ORANGE%%NAME%%CONTINUE%
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                  ▬▬▬▬▬ Sockets for Everything Except Non-Magical Items ▬▬▬▬▬                  ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
-ItemDisplay[!NMAG SOCK>0]: %NAME% %RED%[%WHITE%%SOCKETS%%RED%]%CONTINUE%
+ItemDisplay[!NMAG SOCK>0]: %NAME% %RED%[%WHITE%%SOCKETS%%RED%]
 
 ItemDisplay[!NMAG]: %NAME% %WHITE%[%PRICE%%GOLD%G%WHITE%]
 
-ItemDisplay[SOCK>0]: %NAME% %RED%[%WHITE%%SOCKETS%%RED%] %CONTINUE%
+ItemDisplay[SOCK>0]: %NAME% %RED%[%WHITE%%SOCKETS%%RED%]
 
-ItemDisplay[]: %NAME% %WHITE%[%PRICE%%GOLD%G%WHITE%]
+//ItemDisplay[]: %NAME% %WHITE%[%PRICE%%GOLD%G%WHITE%]
