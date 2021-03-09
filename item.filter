@@ -43,9 +43,9 @@ ItemDisplay[gpm OR opm OR opl OR ops OR gps OR gpl]: //Hide Choking, Exploding, 
 ItemDisplay[MAG !ID (aq2 OR cq2) CLVL>69]: //Ignore Unidentified Magic Arrows/Bolts (Level 70+)
 
 ItemDisplay[RUNE<10]: %ORANGE%%RUNENAME% Rune %GRAY%(%RUNENUM%)
-ItemDisplay[RUNE<20]: %NL%%ORANGE%%RUNENAME% Rune %GRAY%(%RUNENUM%)%NL%
-ItemDisplay[(RUNE>19 AND RUNE<26)]: %NL%%NL%         %RED%#%WHITE%#%BLUE%#  %GREEN%%RUNENAME% RUNE %GRAY%(%RUNENUM%)  %BLUE%#%WHITE%#%RED%#         %NL%%NL%%MAP%
-ItemDisplay[RUNE>25]: %NL%%NL%         %RED%###%WHITE%###%BLUE%###  %GREEN%%RUNENAME% RUNE %GRAY%(%RUNENUM%)  %BLUE%###%WHITE%###%RED%###         %NL%%NL%%MAP%
+ItemDisplay[RUNE<20]: %NL%%ORANGE%%RUNENAME% Rune %GRAY%(%RUNENUM%)%NL%%NOTIFY-ITEM%
+ItemDisplay[(RUNE>19 AND RUNE<26)]: %NL%%NL%         %RED%#%WHITE%#%BLUE%#  %GREEN%%RUNENAME% RUNE %GRAY%(%RUNENUM%)  %BLUE%#%WHITE%#%RED%#         %NL%%NL%%NOTIFY-ITEM%
+ItemDisplay[RUNE>25]: %NL%%NL%         %RED%###%WHITE%###%BLUE%###  %GREEN%%RUNENAME% RUNE %GRAY%(%RUNENUM%)  %BLUE%###%WHITE%###%RED%###         %NL%%NL%%NOTIFY-ITEM%
 
 
 //║                     ▬▬▬▬▬ Town Portal and ID Scrolls/Tomes and Keys ▬▬▬▬▬                     ║
@@ -76,15 +76,15 @@ ItemDisplay[rvs]: %NL%%BLACK%   %GREEN%!%PURPLE%3%  %BLACK%%NL%
 
 
 ║                                   ▬▬▬▬▬ Special Items ▬▬▬▬▬                                   ║
-ItemDisplay[pk1]: %NL%          %RED%#%WHITE%#%BLUE%# %TAN%Terror %GRAY%[Countess] %BLUE%#%WHITE%#%RED%#          %NL%%MAP%
-ItemDisplay[pk2]: %NL%          %RED%#%WHITE%#%BLUE%# %TAN%Hate %GRAY%[Summoner] %BLUE%#%WHITE%#%RED%#          %NL%%MAP%
-ItemDisplay[pk3]: %NL%          %RED%#%WHITE%#%BLUE%# %TAN%Destruction %GRAY%[Nih] %BLUE%#%WHITE%#%RED%#          %NL%%MAP%
+ItemDisplay[pk1]: %NL%          %RED%#%WHITE%#%BLUE%# %TAN%Terror %GRAY%[Countess] %BLUE%#%WHITE%#%RED%#          %NL%%NOTIFY-ITEM%
+ItemDisplay[pk2]: %NL%          %RED%#%WHITE%#%BLUE%# %TAN%Hate %GRAY%[Summoner] %BLUE%#%WHITE%#%RED%#          %NL%%NOTIFY-ITEM%
+ItemDisplay[pk3]: %NL%          %RED%#%WHITE%#%BLUE%# %TAN%Destruction %GRAY%[Nih] %BLUE%#%WHITE%#%RED%#          %NL%%NOTIFY-ITEM%
 
-ItemDisplay[toa]: %RED%#%WHITE%#%BLUE%# %TAN%%NAME% %BLUE%#%WHITE%#%RED%#%MAP% //Token of Absolution
-ItemDisplay[tes]: %RED%## %TAN%%NAME% %PURPLE%[Andy\Dury] %RED%##%MAP% //Twisted Essence
-ItemDisplay[ceh]: %RED%## %TAN%%NAME% %PURPLE%[Meph] %RED%##%MAP% //Charged Essence
-ItemDisplay[bet]: %RED%## %TAN%%NAME% %PURPLE%[Diablo] %RED%##%MAP% //Burning Essence
-ItemDisplay[fed]: %RED%## %TAN%%NAME% %PURPLE%[Baal] %RED%##%MAP% //Festering Essence
+ItemDisplay[toa]: %RED%#%WHITE%#%BLUE%# %TAN%%NAME% %BLUE%#%WHITE%#%RED%#%NOTIFY-ITEM% //Token of Absolution
+ItemDisplay[tes]: %RED%## %TAN%%NAME% %PURPLE%[Andy\Dury] %RED%##%NOTIFY-ITEM% //Twisted Essence
+ItemDisplay[ceh]: %RED%## %TAN%%NAME% %PURPLE%[Meph] %RED%##%NOTIFY-ITEM% //Charged Essence
+ItemDisplay[bet]: %RED%## %TAN%%NAME% %PURPLE%[Diablo] %RED%##%NOTIFY-ITEM% //Burning Essence
+ItemDisplay[fed]: %RED%## %TAN%%NAME% %PURPLE%[Baal] %RED%##%NOTIFY-ITEM% //Festering Essence
 
 ItemDisplay[dhn]: %RED%#%WHITE%#%BLUE%# %TAN%Diablo's Horn %BLUE%#%WHITE%#%RED%#
 ItemDisplay[bey]: %RED%#%WHITE%#%BLUE%# %TAN%Baal's Eye %BLUE%#%WHITE%#%RED%#
@@ -94,7 +94,7 @@ ItemDisplay[mbr]: %RED%#%WHITE%#%BLUE%# %TAN%Mephisto's Brain %BLUE%#%WHITE%#%RE
 ItemDisplay[ear]: //Hide Ears
 ItemDisplay[std]: %NAME% //Standard of Heroes
 
-ItemDisplay[cx5]: %NL%%NL%          %GREEN%###   %PURPLE%Orb of Corruption   %GREEN%###          %NL%%NL%          %MAP% //Worldstone Shard	
+ItemDisplay[cx5]: %NL%%NL%          %GREEN%###   %PURPLE%Orb of Corruption   %GREEN%###          %NL%%NL%          %NOTIFY-ITEM% //Worldstone Shard	
 
 
 
@@ -120,8 +120,8 @@ ItemDisplay[RARE !ID (ci0 OR ci1 OR ci2 OR ci3)]: %NL%%NL%%DOT-9B%%GREEN%#### %Y
 // color for this rule if used is to set it to %RED%.
 //ItemDisplay[NMAG ETH]: %RED%ETH %ORANGE%%NAME%%CONTINUE%
 
-ItemDisplay[ETH UNI]: %NL%         %RED%ETH %GOLD%%NAME%%MAP%         %NL%%CONTINUE%
-ItemDisplay[ETH SET]: %NL%         %RED%ETH %GREEN%%NAME%%MAP%         %NL%%CONTINUE%
+ItemDisplay[ETH UNI]: %NL%         %RED%ETH %GOLD%%NAME%%NOTIFY-ITEM%         %NL%%CONTINUE%
+ItemDisplay[ETH SET]: %NL%         %RED%ETH %GREEN%%NAME%%NOTIFY-ITEM%         %NL%%CONTINUE%
 ItemDisplay[ETH MAG]: %RED%ETH %BLUE%%NAME%%CONTINUE%
 ItemDisplay[ETH NMAG]: %GREEN%ETH %GRAY%%NAME%%CONTINUE%
 ItemDisplay[ETH RARE]: %RED%ETH %YELLOW%%NAME%%CONTINUE%
@@ -129,8 +129,8 @@ ItemDisplay[ETH RARE]: %RED%ETH %YELLOW%%NAME%%CONTINUE%
 ItemDisplay[NMAG !ETH]: %GRAY%%NAME%%CONTINUE%
 ItemDisplay[MAG]: %BLUE%%NAME%%CONTINUE%
 ItemDisplay[RARE]: %YELLOW%%NAME%%CONTINUE%
-ItemDisplay[SET]: %NL%         %GREEN%%NAME%%MAP%         %NL%%CONTINUE%
-ItemDisplay[UNI]: %NL%         %GOLD%%NAME%%MAP%         %NL%%CONTINUE%
+ItemDisplay[SET]: %NL%         %GREEN%%NAME%%NOTIFY-ITEM%         %NL%%CONTINUE%
+ItemDisplay[UNI]: %NL%         %GOLD%%NAME%%NOTIFY-ITEM%         %NL%%CONTINUE%
 ItemDisplay[!(NMAG OR MAG OR RARE OR SET OR UNI)]: %ORANGE%%NAME%%CONTINUE%
 
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
