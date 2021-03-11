@@ -669,8 +669,8 @@ ItemDisplay[UNI ETH SOCK>0]: ETH %NAME% %WHITE%[%RED%%SOCKETS%%WHITE%]
 ItemDisplay[UNI ETH]: ETH %NAME%
 ItemDisplay[UNI SOCK>0]: %NAME% %WHITE%[%RED%%SOCKETS%%WHITE%]
 ItemDisplay[SET SOCK>0]: %NAME% %WHITE%[%RED%%SOCKETS%%WHITE%]
-ItemDisplay[UNI !cm1 !cm2 !cm3]: %NAME%%%NOTIFY-ITEM%
-ItemDisplay[SET !cm1 !cm2 !cm3]: %NAME%%%NOTIFY-ITEM%
+ItemDisplay[UNI !cm1 !cm2 !cm3]: %NAME%
+ItemDisplay[SET !cm1 !cm2 !cm3]: %NAME%
 
 //Remove shield/armor/helm with shit sockets
 ItemDisplay[NMAG EQ3 !RW SOCK=1]:
