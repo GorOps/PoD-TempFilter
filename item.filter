@@ -656,9 +656,7 @@ ItemDisplay[UNI ID amu ALLSK>0 IAS>19 STAT96>19]:  %NAME% %WHITE% 1%PURPLE%ALLSK
 ItemDisplay[SET !ID (rin OR amu)]:  %NL%          %%ORANGE% % %GREEN%%NAME% %ORANGE% %%         %NL%%NOTIFY-ITEM%
 ItemDisplay[UNI !ID jew]:  %NL%          %%GREEN% %%%%%% %PURPLE%%NAME% %GREEN% %%%%%%%         %NL%%NOTIFY-ITEM%
 ItemDisplay[UNI !ID cm3]:  %NL%          %%RED% %%% %GOLD%%NAME% %RED% %%%%         %NL%%NOTIFY-ITEM%
-
 ItemDisplay[MAG !ID jew]:  %NL%%%GREEN%% %BLUE%%NAME% %GREEN%%%%NL%%NOTIFY-ITEM%%CONTINUE%
-ItemDisplay[jew]: %NAME%{%WHITE%This Item + %ORANGE%Ral %WHITE%+ %PURPLE%PAmethyst %WHITE%+ Ammy %NL%%TAN%Note%WHITE%: Socketing Recipe:}
 
 //UNIQUE&SET Eth/Socket Catchall
 ItemDisplay[UNI ETH SOCK>0 !ID]: ETH %NAME% %WHITE%[%RED%%SOCKETS%%WHITE%]
@@ -1260,7 +1258,7 @@ ItemDisplay[ILVL<66 ELT MAG ARMOR ID]: %NAME%
 ItemDisplay[ILVL<66 ELT RARE (ARMOR OR WEAPON)]: %NAME%
 //RARES
 //Best Rares (Circlets, Amulets, Rings, Gloves, Boots, Belts, Jewels)
-ItemDisplay[RARE (ci0 OR ci1 OR ci2 OR ci3 OR amu OR rin OR EQ4 OR jew) !ID]: %NL%         %YELLOW%%NAME% %PURPLE%*%ORANGE%*%GREEN%*%GOLD%*%YELLOW%*%PURPLE%*         %NL%%NOTIFY-ITEM%
+ItemDisplay[RARE (ci0 OR ci1 OR ci2 OR ci3 OR amu OR rin OR EQ4 OR jew) !ID]: %NL%%YELLOW%%NAME% %PURPLE%*%ORANGE%*%GREEN%*%GOLD%*%YELLOW%*%PURPLE%*%NL%%NOTIFY-ITEM%
 ItemDisplay[RARE (EQ5 OR EQ6) !ID]: %YELLOW%%NAME%
 //Class Specific Rares (Druid Pelts, Barb Helms, Paladin Shields, Necro Heads, Assassin Claws, Sorc Orbs, Amazon Bow/Jav
 ItemDisplay[RARE (CL1 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7) !ID]: %YELLOW%%NAME%
