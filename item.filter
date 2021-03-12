@@ -74,12 +74,12 @@ ItemDisplay[leg ILVL>60]: %ORANGE% %NAME% %WHITE%{%RED%HELL%WHITE%}
 ItemDisplay[leg ILVL<30]: %ORANGE% %NAME% %WHITE%{%DGREEN%NORM%WHITE%}
 ItemDisplay[leg ILVL<60]: %ORANGE% %NAME% %WHITE%{%BLUE%NM%WHITE%}
 //Uber Keys
-ItemDisplay[pk1]: %NL%%RED%#%WHITE%#%BLUE%# %TAN%Terror %GRAY%[Countess] %BLUE%#%WHITE%#%RED%#%NL%%NOTIFY-ITEM%
-ItemDisplay[pk2]: %NL%%RED%#%WHITE%#%BLUE%# %TAN%Hate %GRAY%[Summoner] %BLUE%#%WHITE%#%RED%#%NL%%NOTIFY-ITEM%
-ItemDisplay[pk3]: %NL%%RED%#%WHITE%#%BLUE%# %TAN%Destruction %GRAY%[Nih] %BLUE%#%WHITE%#%RED%#%NL%%NOTIFY-ITEM%
-ItemDisplay[dhn]: %RED%#%WHITE%#%BLUE%# %TAN%Diablo's Horn %BLUE%#%WHITE%#%RED%#
-ItemDisplay[bey]: %RED%#%WHITE%#%BLUE%# %TAN%Baal's Eye %BLUE%#%WHITE%#%RED%#
-ItemDisplay[mbr]: %RED%#%WHITE%#%BLUE%# %TAN%Mephisto's Brain %BLUE%#%WHITE%#%RED%#
+ItemDisplay[pk1]: %NL%%RED%#%WHITE%#%BLUE%# %TAN%Terror %GRAY%[Countess] %BLUE%#%WHITE%#%RED%#%NL%%NOTIFY-GOLD%
+ItemDisplay[pk2]: %NL%%RED%#%WHITE%#%BLUE%# %TAN%Hate %GRAY%[Summoner] %BLUE%#%WHITE%#%RED%#%NL%%NOTIFY-GOLD%
+ItemDisplay[pk3]: %NL%%RED%#%WHITE%#%BLUE%# %TAN%Destruction %GRAY%[Nih] %BLUE%#%WHITE%#%RED%#%NL%%NOTIFY-GOLD%
+ItemDisplay[dhn]: %RED%#%WHITE%#%BLUE%# %TAN%Diablo's Horn %BLUE%#%WHITE%#%RED%#%NOTIFY-GOLD%
+ItemDisplay[bey]: %RED%#%WHITE%#%BLUE%# %TAN%Baal's Eye %BLUE%#%WHITE%#%RED%#%NOTIFY-GOLD%
+ItemDisplay[mbr]: %RED%#%WHITE%#%BLUE%# %TAN%Mephisto's Brain %BLUE%#%WHITE%#%RED%#%NOTIFY-GOLD%
 //Utility
 ItemDisplay[tsc]: %GREEN%!%GRAY%TP
 ItemDisplay[isc]: %GREEN%!%GRAY%ID
