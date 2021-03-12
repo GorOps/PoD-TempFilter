@@ -55,7 +55,7 @@ ItemDisplay[fed]: %RED%## %TAN%%NAME% %PURPLE%[Baal] %RED%##%NOTIFY-ITEM% //Fest
 //PoD Items
 ItemDisplay[cx5]: %NL%%NL%%GREEN%###   %PURPLE%Orb of Corruption   %GREEN%###%NL%%NL%%NOTIFY-ITEM% //ooc
 ItemDisplay[cx6]: %PURPLE%##%ORANGE%%NAME%%PURPLE%## //Diablo's Soulstone
-ItemDisplay[cx7]: %PURPLE%##%ORANGE%%NAME%%PURPLE%## //Key of Chaos
+ItemDisplay[cx7]: %NL%%NL%%GREEN%###   %PURPLE%%NAME%   %GREEN%###%NL%%NL%%NOTIFY-ITEM% //Key of Chaos
 ItemDisplay[cx8]: %PURPLE%Orb %ORANGE%of %PURPLE%Enchantment //Orb of Enchantment (Old)
 ItemDisplay[maz]: %NAME% %PURPLE%### //Infernal Trial
 ItemDisplay[ma1 !ID]: %NL%%WHITE%## %TAN%%NAME% T1 %WHITE%[%RED%Unid%WHITE%] ##%NL%%NOTIFY-ITEM% //Icy Cavern or Pleasant Pastures
@@ -107,9 +107,9 @@ ItemDisplay[cq2 SET ILVL>60]: %NAME%
 ItemDisplay[INF ILVL>14 !RW !leg]:
 //RUNES
 ItemDisplay[RUNE<10]: %ORANGE%%RUNENAME% Rune %GRAY%(%RUNENUM%)
-ItemDisplay[RUNE<20]: %NL%%ORANGE%%RUNENAME% Rune %GRAY%(%RUNENUM%)%NL%%NOTIFY-ITEM%
-ItemDisplay[(RUNE>19 AND RUNE<26)]: %NL%%NL%         %RED%#%WHITE%#%BLUE%#  %GREEN%%RUNENAME% RUNE %GRAY%(%RUNENUM%)  %BLUE%#%WHITE%#%RED%#         %NL%%NL%%NOTIFY-ITEM%
-ItemDisplay[RUNE>25]: %NL%%NL%         %RED%###%WHITE%###%BLUE%###  %GREEN%%RUNENAME% RUNE %GRAY%(%RUNENUM%)  %BLUE%###%WHITE%###%RED%###         %NL%%NL%%NOTIFY-ITEM%
+ItemDisplay[RUNE>9 AND RUNE<20]: %NL%%ORANGE%%RUNENAME% Rune %GRAY%(%RUNENUM%)%NL%%NOTIFY-GREEN%
+ItemDisplay[(RUNE>19 AND RUNE<26)]: %NL%%NL%         %RED%#%WHITE%#%BLUE%#  %GREEN%%RUNENAME% RUNE %GRAY%(%RUNENUM%)  %BLUE%#%WHITE%#%RED%#         %NL%%NL%%NOTIFY-GREEN%
+ItemDisplay[RUNE>25]: %NL%%NL%         %RED%###%WHITE%###%BLUE%###  %GREEN%%RUNENAME% RUNE %GRAY%(%RUNENUM%)  %BLUE%###%WHITE%###%RED%###         %NL%%NL%%NOTIFY-GREEN%
 
 //misc quest
 ItemDisplay[bks]: %NAME% //Scroll of Inifuss Act I
@@ -653,7 +653,7 @@ ItemDisplay[UNI ID amu ALLSK>1 IAS>19]:  %NAME% %WHITE% 2´%PURPLE%ALLSKILL
 ItemDisplay[UNI ID amu ALLSK>0 IAS>19 STAT96>19]:  %NAME% %WHITE% 1%PURPLE%ALLSKILL
 
 
-ItemDisplay[SET !ID (rin OR amu)]:  %NL%          %%ORANGE% % %GREEN%%NAME% %ORANGE% %%         %NL%%NOTIFY-ITEM%
+ItemDisplay[SET !ID (rin OR amu)]:  %NL%%%ORANGE% % %GREEN%%NAME% %ORANGE% %%%NL%%NOTIFY-ITEM%
 ItemDisplay[UNI !ID jew]:  %NL%          %%GREEN% %%%%%% %PURPLE%%NAME% %GREEN% %%%%%%%         %NL%%NOTIFY-ITEM%
 ItemDisplay[UNI !ID cm3]:  %NL%          %%RED% %%% %GOLD%%NAME% %RED% %%%%         %NL%%NOTIFY-ITEM%
 ItemDisplay[MAG !ID jew]:  %NL%%%GREEN%% %BLUE%%NAME% %GREEN%%%%NL%%NOTIFY-ITEM%%CONTINUE%
@@ -663,8 +663,8 @@ ItemDisplay[UNI ETH SOCK>0 !ID]: ETH %NAME% %WHITE%[%RED%%SOCKETS%%WHITE%]
 ItemDisplay[UNI ETH !ID]: ETH %NAME%
 ItemDisplay[UNI SOCK>0 !ID]: %NAME% %WHITE%[%RED%%SOCKETS%%WHITE%]
 ItemDisplay[SET SOCK>0 !ID]: %NAME% %WHITE%[%RED%%SOCKETS%%WHITE%]
-ItemDisplay[UNI !ID]: %TAN%%NAME%%%NOTIFY-ITEM%
-ItemDisplay[SET !ID]: %NAME%%%NOTIFY-ITEM%
+ItemDisplay[UNI !ID]: %TAN%%NAME%
+ItemDisplay[SET !ID]: %NAME%
 ItemDisplay[UNI ETH SOCK>0]: ETH %NAME% %WHITE%[%RED%%SOCKETS%%WHITE%]
 ItemDisplay[UNI ETH]: ETH %NAME%
 ItemDisplay[UNI SOCK>0]: %NAME% %WHITE%[%RED%%SOCKETS%%WHITE%]
@@ -996,12 +996,12 @@ ItemDisplay[MAG ID cm3 RES>9 STAT96>0]: %RED% Grand Charm %ORANGE%[%ILVL%]  %WHI
 ItemDisplay[MAG ID cm3 RES>9]: %RED% Grand Charm %ORANGE%[%ILVL%]  %WHITE%10-15 %YELLOW%a%RED%l%BLUE%l%YELLOW%r%RED%e%BLUE%s
 ItemDisplay[MAG ID cm2 RES>5]: %RED% Large Charm %ORANGE%[%ILVL%]  %WHITE%6-8 %YELLOW%a%RED%l%BLUE%l%YELLOW%r%RED%e%BLUE%s
 //random/unid Charms
-ItemDisplay[MAG cm3 ILVL<50]: %RED% %NAME% %ORANGE%[L%ILVL%] (LOW)%NOTIFY-ITEM%
-ItemDisplay[MAG cm1 ILVL<48]: %RED% %NAME% %ORANGE%[L%ILVL%] (LOW)%NOTIFY-ITEM%
-ItemDisplay[MAG cm3 ILVL>49 !ID]: %NL%%RED% %NAME% %ORANGE%[L%ILVL%]%NL%%NOTIFY-ITEM%
-ItemDisplay[MAG cm1 ILVL>47 !ID]: %NL%%RED% %NAME% %ORANGE%[L%ILVL%]%NL%%NOTIFY-ITEM%
-ItemDisplay[MAG cm2 ILVL<80 ]: %RED% %NAME% %ORANGE%[L%ILVL%] %%%%
-ItemDisplay[MAG cm2 ILVL>79]: %GRAY% %NAME% %ORANGE%[L%ILVL%]
+ItemDisplay[MAG cm3 ILVL<50 !ID]: %BLUE%%NAME% %WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
+ItemDisplay[MAG cm1 ILVL<48 !ID]: %BLUE%%NAME% %WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
+ItemDisplay[MAG cm3 ILVL>49 !ID]: %NL%%GREEN%####   %BLUE%%NAME% %WHITE%[%GRAY%Lv.%ILVL%%WHITE%]   %GREEN%####%NL%%NOTIFY-ITEM%
+ItemDisplay[MAG cm1 ILVL>47 !ID]: %NL%%GREEN%####   %BLUE%%NAME% %WHITE%[%GRAY%Lv.%ILVL%%WHITE%]   %GREEN%####%NL%%NOTIFY-ITEM%
+ItemDisplay[MAG cm2 ILVL<80 !ID]: %BLUE%%NAME% %WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
+ItemDisplay[MAG cm2 ILVL>79 !ID]: %BLUE%%NAME% %WHITE%[%GRAY%Lv.%ILVL%%WHITE%]
 
 //Runewords
 ItemDisplay[RW]: %NAME% %PURPLE%**
@@ -1258,7 +1258,7 @@ ItemDisplay[ILVL<66 ELT MAG ARMOR ID]: %NAME%
 ItemDisplay[ILVL<66 ELT RARE (ARMOR OR WEAPON)]: %NAME%
 //RARES
 //Best Rares (Circlets, Amulets, Rings, Gloves, Boots, Belts, Jewels)
-ItemDisplay[RARE (ci0 OR ci1 OR ci2 OR ci3 OR amu OR rin OR EQ4 OR jew) !ID]: %NL%%YELLOW%%NAME% %PURPLE%*%ORANGE%*%GREEN%*%GOLD%*%YELLOW%*%PURPLE%*%NL%%NOTIFY-ITEM%
+ItemDisplay[RARE (ci0 OR ci1 OR ci2 OR ci3 OR amu OR rin OR EQ4 OR jew) !ID]: %NL%%GREEN%#### %YELLOW%%NAME% %GREEN%####%NL%%NOTIFY-YELLOW%
 ItemDisplay[RARE (EQ5 OR EQ6) !ID]: %YELLOW%%NAME%
 //Class Specific Rares (Druid Pelts, Barb Helms, Paladin Shields, Necro Heads, Assassin Claws, Sorc Orbs, Amazon Bow/Jav
 ItemDisplay[RARE (CL1 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7) !ID]: %YELLOW%%NAME%
