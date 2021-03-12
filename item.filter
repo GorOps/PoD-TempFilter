@@ -643,8 +643,8 @@ ItemDisplay[NMAG WP13 CLVL<60 SOCK=4]: %NAME%  %WHITE%[%RED%%SOCKETS%%WHITE%] %R
 ItemDisplay[NMAG WP13  SOCK=4]: %NAME%  %WHITE%[%RED%%SOCKETS%%WHITE%]
 //
 //Rings Amulets Jewels Charms
-ItemDisplay[UNI !ID rin]:  %NL%          %ORANGE% %%% %PURPLE%%NAME% %ORANGE% %%%%         %NL%%NOTIFY-ITEM%
-ItemDisplay[UNI !ID amu]:  %NL%          %ORANGE% %%%%%% %PURPLE%%NAME% %ORANGE% %%%%%%         %NL%%NOTIFY-ITEM%
+ItemDisplay[UNI !ID rin]:  %NL%%NL%%GREEN%#### %TAN%%NAME% %GREEN%####%NL%%NL%%NOTIFY-ITEM%
+ItemDisplay[UNI !ID amu]:  %NL%%NL%%GREEN%#### %TAN%%NAME% %GREEN%####%NL%%NL%%NOTIFY-ITEM%
 ItemDisplay[UNI ID rin FCR>0]:  %NAME% %PURPLE% FCR
 ItemDisplay[UNI ID rin STAT36>0]:  %NAME% %PURPLE% PDR
 ItemDisplay[UNI ID rin STAT96>0]:  %NAME% %PURPLE% FRW
@@ -652,11 +652,11 @@ ItemDisplay[UNI ID amu ALLSK>2]:  %NAME% %WHITE% 3%PURPLE%ALLSKILL
 ItemDisplay[UNI ID amu ALLSK>1 IAS>19]:  %NAME% %WHITE% 2´%PURPLE%ALLSKILL
 ItemDisplay[UNI ID amu ALLSK>0 IAS>19 STAT96>19]:  %NAME% %WHITE% 1%PURPLE%ALLSKILL
 
-
-ItemDisplay[SET !ID (rin OR amu)]:  %NL%%%ORANGE% % %GREEN%%NAME% %ORANGE% %%%NL%%NOTIFY-ITEM%
-ItemDisplay[UNI !ID jew]:  %NL%          %%GREEN% %%%%%% %PURPLE%%NAME% %GREEN% %%%%%%%         %NL%%NOTIFY-ITEM%
-ItemDisplay[UNI !ID cm3]:  %NL%          %%RED% %%% %GOLD%%NAME% %RED% %%%%         %NL%%NOTIFY-ITEM%
-ItemDisplay[MAG !ID jew]:  %NL%%%GREEN%% %BLUE%%NAME% %GREEN%%%%NL%%NOTIFY-ITEM%%CONTINUE%
+ItemDisplay[SET !ID amu]:  %NL%%NL%%GREEN%#### %NAME% ####%NL%%NL%%NOTIFY-ITEM%
+ItemDisplay[SET !ID rin]:  %GREEN%%NAME%
+ItemDisplay[UNI !ID jew]:  %NL%%NL%%GREEN%#### %TAN%%NAME% %GREEN%####%NL%%NL%%NOTIFY-ITEM%
+ItemDisplay[UNI !ID cm3]:  %NL%%NL%%GREEN%#### %TAN%%NAME% %GREEN%####%NL%%NL%%NOTIFY-ITEM%
+ItemDisplay[MAG !ID jew]:  %NL%%GREEN%####   %BLUE%%NAME% %WHITE%[%GRAY%Lv.%ILVL%%WHITE%]   %GREEN%####%NL%%NOTIFY-ITEM%
 
 //UNIQUE&SET Eth/Socket Catchall
 ItemDisplay[UNI ETH SOCK>0 !ID]: ETH %NAME% %WHITE%[%RED%%SOCKETS%%WHITE%]
