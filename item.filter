@@ -85,7 +85,8 @@ ItemDisplay[tsc]: %GREEN%!%GRAY%TP
 ItemDisplay[isc]: %GREEN%!%GRAY%ID
 ItemDisplay[wms CLVL<60]: %GREEN%!%WHITE%Thaw
 ItemDisplay[wms CLVL>59]:
-ItemDisplay[yps]: %GREEN%!%WHITE%A
+ItemDisplay[yps CLVL<80]: %GREEN%!%WHITE%A
+ItemDisplay[yps CLVL>79]: 
 //Keys for Locked Chests
 ItemDisplay[key]: %GRAY%Key
 //Tomes
