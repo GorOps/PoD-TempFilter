@@ -58,14 +58,14 @@ ItemDisplay[cx6]: %PURPLE%##%ORANGE%%NAME%%PURPLE%## //Diablo's Soulstone
 ItemDisplay[cx7]: %NL%%NL%%GREEN%###   %PURPLE%%NAME%   %GREEN%###%NL%%NL%%NOTIFY-ITEM% //Key of Chaos
 ItemDisplay[cx8]: %PURPLE%Orb %ORANGE%of %PURPLE%Enchantment //Orb of Enchantment (Old)
 ItemDisplay[maz]: %NAME% %PURPLE%### //Infernal Trial
-ItemDisplay[ma1 !ID]: %NL%%WHITE%## %TAN%%NAME% T1 %WHITE%[%RED%Unid%WHITE%] ##%NL%%NOTIFY-ITEM% //Icy Cavern or Pleasant Pastures
-ItemDisplay[ma2 !ID]: %NL%%RED%###### %TAN%%NAME% T4 %RED%###### %WHITE%[%RED%Unid%WHITE%]%NL%%NOTIFY-ITEM% //Forgotten Desert
-ItemDisplay[ma4 !ID]: %NL%%YELLOW%#### %TAN%%NAME% T2 %YELLOW%#### %WHITE%[%RED%Unid%WHITE%]%NL%%NOTIFY-ITEM% //Desecrated Temple
-ItemDisplay[ma5 !ID]: %NL%%WHITE%## %TAN%%NAME% T1 %WHITE%[%RED%Unid%WHITE%]%NL%%NOTIFY-ITEM% //Frigid Plateau
-ItemDisplay[ma6 !ID]: %NL%%RED%#### %TAN%%NAME% T3 %RED%#### %WHITE%[%RED%Unid%WHITE%]%NL%%NOTIFY-ITEM% //Ruined Citadel
-ItemDisplay[ma7 !ID]: %NL%%RED%###### %TAN%%NAME% T5 %RED%###### %WHITE%[%RED%Unid%WHITE%]%NL%%NOTIFY-ITEM% //Burnt Forest
-ItemDisplay[ma8 !ID]: %NL%%YELLOW%#### %TAN%%NAME% T2 %YELLOW%#### %WHITE%[%RED%Unid%WHITE%]%NL%%NOTIFY-ITEM% //Musty Crypt
-ItemDisplay[ma9 !ID]: %NL%%YELLOW%#### %TAN%%NAME% T2 %YELLOW%#### %WHITE%[%RED%Unid%WHITE%]%NL%%NOTIFY-ITEM% //Dim Cellar
+ItemDisplay[ma1 !ID]: %NL%%WHITE%## %TAN%%NAME% T1 %WHITE%[%RED%Unid%WHITE%] ##%NL%%NOTIFY-PURPLE% //Icy Cavern or Pleasant Pastures
+ItemDisplay[ma2 !ID]: %NL%%RED%###### %TAN%%NAME% T4 %RED%###### %WHITE%[%RED%Unid%WHITE%]%NL%%NOTIFY-PURPLE% //Forgotten Desert
+ItemDisplay[ma4 !ID]: %NL%%YELLOW%#### %TAN%%NAME% T2 %YELLOW%#### %WHITE%[%RED%Unid%WHITE%]%NL%%NOTIFY-PURPLE% //Desecrated Temple
+ItemDisplay[ma5 !ID]: %NL%%WHITE%## %TAN%%NAME% T1 %WHITE%[%RED%Unid%WHITE%]%NL%%NOTIFY-PURPLE% //Frigid Plateau
+ItemDisplay[ma6 !ID]: %NL%%RED%#### %TAN%%NAME% T3 %RED%#### %WHITE%[%RED%Unid%WHITE%]%NL%%NOTIFY-PURPLE% //Ruined Citadel
+ItemDisplay[ma7 !ID]: %NL%%RED%###### %TAN%%NAME% T5 %RED%###### %WHITE%[%RED%Unid%WHITE%]%NL%%NOTIFY-PURPLE% //Burnt Forest
+ItemDisplay[ma8 !ID]: %NL%%YELLOW%#### %TAN%%NAME% T2 %YELLOW%#### %WHITE%[%RED%Unid%WHITE%]%NL%%NOTIFY-PURPLE% //Musty Crypt
+ItemDisplay[ma9 !ID]: %NL%%YELLOW%#### %TAN%%NAME% T2 %YELLOW%#### %WHITE%[%RED%Unid%WHITE%]%NL%%NOTIFY-PURPLE% //Dim Cellar
 ItemDisplay[ma0]: %NAME% %PURPLE%###
 ItemDisplay[maa]: %NAME% %PURPLE%###
 ItemDisplay[mab]: %NAME% %PURPLE%###
